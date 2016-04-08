@@ -1,0 +1,245 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino , serif;
+
+}
+
+.navbar-brand{
+  
+  
+  color:blue;
+  
+  
+  
+  
+}
+.header{
+  
+  height:90vh;
+  width:100vw;
+  background-color:#ffb366;
+  animation-name: headerAnimation;
+  animation-duration: 8s;
+  animation-fill-mode:forwards;
+
+  
+  
+}
+
+
+
+h1{
+  
+  font-size:400%;
+  color:#ffffcc;
+  animation-name:whiteToBlack;
+  animation-duration:8s;
+  animation-delay:1s;
+  animation-fill-mode:forwards;
+  text-align:center;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino , serif;
+  
+  
+}
+
+h2{
+  
+  text-align:center;
+  color:#ffb366;
+  
+}
+
+.mypic{
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  height:auto;
+  width:auto;
+  max-height:40%;
+  max-width:55%;
+  box-shadow:0.6em 0.6em 0.3em #888888;
+  overflow:hidden;
+  
+
+}
+
+
+@keyframes headerAnimation{
+  
+  
+  from {background-color:#ffffcc;}
+  to{background-color:#ffb366;}
+  
+  
+  
+  
+}
+
+@keyframes whiteToBlack{
+  
+  
+  from{color:#ffffcc;}
+  to{color:black;}
+  
+  
+}
+
+
+
+.bio{
+  font-size:120%;
+  color:black;
+  background:linear-gradient(45deg, #F2DAC2, #ffb366);
+  height:90vh;
+  width:100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  
+  
+}
+
+.List2 {
+  
+  margin-left:5%;
+  
+}
+
+.centeredParagraph{
+  
+  width:55em;
+  padding-top:5em;
+  margin-left:auto;
+  margin-right:auto;
+  
+  
+}
+
+.projects{
+
+  height:90vh;
+  width:100%;
+  background-color:black;
+  max-width: 100%;
+  overflow-x: hidden;
+	overflow-y:hidden;
+	white-space:normal;
+  
+  
+}
+
+.row{
+  
+  margin-left:2em;
+  margin-right:2em;
+  
+}
+
+
+.contact{
+  
+  
+  height:50vh;
+  background-color:black;
+  color:grey;
+  /*text-align:center;*/
+  overflow-x:hidden;
+	overflow-y:hidden;
+
+  
+  
+}
+
+
+button{
+  margin-left:2em;
+  color:white;
+  background-color:black;
+  width:60%;
+  
+}
+
+.bioBlurb{
+  
+  font-size:115%;
+  font-weight:600;
+  
+}
+
+.codepen,.linkedIn{
+  
+  
+  width:45%;
+  height:45%;
+  max-width:35px;
+  max-height:35px;
+  
+}
+
+button:hover{
+  
+  color:orange !important;
+  
+}
+
+a:hover{
+  
+  color:orange !important;
+  
+}
+
+
+h4{
+  
+  font-weight:bold;
+  
+}
+
+
+.thumbnail{
+  
+  background:#ffb366;
+  
+  
+}
+
+.ParagraphWMargin{
+  
+  padding-top:0.7em;
+  margin-left:2em;
+  
+  
+}
+
+.whatIdoH2{
+
+    color:black;
+    margin-right:6em;
+
+}
+
+.sub-header{
+
+	color:#ffb366;
+
+}
+
+.otherProjects{
+
+	color:#ffffcc;
+}
+.caption h3{
+
+	color:black;
+	
+}
+.caption p {
+
+	word-wrap:break-word;
+	height:inherit;
+}
+.caption div{
+	
+	word-wrap:break-word;
+
+}
