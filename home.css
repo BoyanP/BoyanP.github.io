@@ -184,12 +184,9 @@ li.skills{
 
 .projectsIntro{
 
-	border-color:black;
-	border-style:solid;
-	border-width:0.25em;
-	box-shadow: 0.2em 0.2em 0.1em #1e01ad;
-	padding:1em;
-	background-color: rgba(200,200,230,0.8);
+	margin-left:1em;
+	padding-left:1em;
+	padding:0.2em;
 	font-family: 'Karla', sans-serif;
 	display:inline-block;
 	width:96%;
