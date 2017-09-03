@@ -1,0 +1,180 @@
+body{
+
+	 /*background-image:url("../pics/background.jpg"); */ 
+	background-color:#06140A; !important
+	background-repeat:repeat;
+	background-size:contain;
+	min-height: 100%;
+	min-width: 100%;
+
+}
+.centeredText{
+
+	margin-left:33.5%;
+	
+
+}
+.Title{
+	text-align:center;
+	margin-right:39.5%;
+	border-radius:0.5em;
+	background:white;
+	background-color:#1FE05D;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	box-shadow: 0.3em 0.3em 0.3em;
+}	
+
+h1{
+
+	margin:1em;
+	font-family: Georgia,serif;
+
+
+}
+
+ul{ 
+
+
+	margin-left:40%;
+	text-align:left;
+ }
+
+.picHolder{
+
+	width:90%;
+	height:90%;
+	background:black;
+	background-size:cover;
+	background-position: 50% 50%;
+	border-radius:1em;
+	border-color: black;
+	border-style:solid;
+	margin-left:0.1em;
+	margin-bottom: 0.5em;
+	box-shadow: 1em 1em 0.5em;
+
+}
+
+.picTextHolder{
+
+	height:15em;
+	margin:1em;
+	display:inline-block;
+
+
+}
+
+.submitButton{
+
+	margin-left: 38%;
+	background:black;
+	color:#1FE05D;
+	display:block;
+	width:8em;
+	font-size:125%;
+	text-align:center;
+	border-radius:0.1em;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	border-color:white;
+	border-style:solid;
+	box-shadow:0.1em 0.1em 0.1em;
+}
+.numInput{
+
+	border-radius:3px;
+	padding:0.25em; 
+	width:15em;
+}
+
+
+.submitButton:hover{
+
+	background:#400006;
+
+
+}
+.submitButton:active{
+
+	background:red;
+	color:black;
+	box-shadow: 0.1em 0.1em 0.1em;
+
+
+}
+
+.wrongText{
+
+	color:red;
+	font-size:165%;
+	margin-left:35%;
+}
+
+.numberButtons{
+
+	background-color:#046624;
+	display: inline-block;
+	height:2em;
+	width:3em;
+	font-size:125%;
+	color:black;
+	text-align: center;
+	padding:0.1em;
+	border-style:solid;
+	border-width: 0.1em;
+	border-color: black;
+	border-radius: 0.5em ;
+	margin-right: 0.2em;
+	padding-top:1em;
+	box-shadow: 0.1em 0.1em 0.1em;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+
+
+}
+.numberButtons:hover{
+
+	/*background-color:#1FE05D;*/
+	color:red;
+
+
+}
+.numberButtons:active{
+
+	background-color:#004717;
+	color:white;
+
+}
+
+p{
+
+	margin-left:17%;
+
+
+}
+
+
+.gameArea{
+
+
+	margin-left:4%;
+
+
+
+}
+
+.finalMessage{
+
+	color:black;
+	text-align: center;
+	font-size:125%;
+	background-color:#1FE05D;
+	border-radius:1em;
+	margin:1em;
+	margin-left:15%;
+	height:6em;
+	padding:1em;
+	width:60%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}

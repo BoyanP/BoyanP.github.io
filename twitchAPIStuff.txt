@@ -1,0 +1,5 @@
+twitch API:
+
+CLIENT ID: swheeu8yk5hiqgcgo69m58amq5ynn5
+
+CLIENT SECRET : 5es8rsb0qvvzngoib0c3qfcpg9jhqe
