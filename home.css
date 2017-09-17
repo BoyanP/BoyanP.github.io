@@ -6,6 +6,17 @@ body{
 
 }
 
+.container{
+
+	margin:auto;
+	width:95%;
+	min-width:60em;
+	margin:0 auto;
+
+
+
+}
+
 .parallax {
     /* The image used */
     background-image: url('sunset.jpg');
@@ -120,8 +131,11 @@ li.skills{
 	border-width:0.25em;
 	box-shadow: 0.2em 0.2em 0.1em #1e01ad;
 	background-color: rgba(200,200,230,0.8);
+	min-height:25em;
 	height:80%;
-	margin:1%;
+	margin-top:1em;
+
+	
 
 
 }
@@ -137,9 +151,9 @@ li.skills{
 }
 
 #projects{
-	margin:1%;
-
-
+	
+	width:inherit;
+	padding:1em;
 }
 
 .githubClass{
@@ -181,15 +195,26 @@ li.skills{
 
 }
 
+.paragraphs{
+
+	padding-left:1em;
+
+
+}
 
 .projectsIntro{
 
-	margin-left:1em;
-	padding-left:1em;
-	padding:0.2em;
-	font-family: 'Karla', sans-serif;
-	display:inline-block;
-	width:96%;
+	background-color: rgba(200,200,230,0.8);
+	padding-bottom:1em;
+	border-color:black;
+	border-style:solid;
+	border-width:0.25em;
+	margin-top:1em;
+	box-shadow: 0.2em 0.2em 0.1em #1e01ad;
+	width:fill;
+
+
+	
 }
 
 .projectShowcase{
@@ -200,6 +225,7 @@ li.skills{
 	border-width:0.25em;
 	margin-top:1em;
 	box-shadow: 0.2em 0.2em 0.1em #1e01ad;
+	width:fill;
 
 
 
@@ -239,7 +265,7 @@ li.skills{
 	border-width:0.2em;
 	box-shadow: 0.2em 0.2em 0.1em #1e01ad;
 	margin-bottom:1em;
-	margin:1%;
+
 
 
 }
