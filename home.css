@@ -48,7 +48,7 @@ vertical-align: middle;
 	margin:auto;
 	display:flex;
 	justify-content: space-around;
-	background-color:#99ffe0;
+	background-color:#ffd0b5;
 	font-family: 'Exo 2', sans-serif;
 
 
@@ -59,11 +59,12 @@ vertical-align: middle;
 	padding:15%;
 	text-decoration: none;
 	font-weight:bold;
+	color:#1b241a;
 
 }
 .menuBar a:hover{
 
-	background-color:#2d0c70;
+	background-color:#ad4b00;
 	color:#e8ffe0;
 
 
@@ -86,7 +87,7 @@ h3{
 	max-width:40%;
 	max-height:40%;
 	float:left;
-	box-shadow: 0.2em 0.2em 0.1em #1e01ad;
+	box-shadow: 0.2em 0.2em 0.1em #b34100;
 
 }
 
@@ -95,7 +96,7 @@ h3{
 	width:30%;
 	vertical-align: middle;
 	text-align:center;
-	box-shadow: 0.2em 0.2em 0.1em #1e01ad;
+	box-shadow: 0.2em 0.2em 0.1em #b34100;
 	border-color:#220068;
 	border-width:0.1em;
 	border-style: solid;
@@ -129,7 +130,7 @@ h3{
 	border-color:black;
 	border-style:solid;
 	border-width:0.25em;
-	box-shadow: 0.2em 0.2em 0.1em #1e01ad;
+	box-shadow: 0.2em 0.2em 0.1em #b34100;
 	background-color: rgba(200,200,230,0.8);
 	min-height:25em;
 	height:80%;
@@ -209,8 +210,9 @@ h3{
 	border-style:solid;
 	border-width:0.25em;
 	margin-top:1em;
-	box-shadow: 0.2em 0.2em 0.1em #1e01ad;
+	box-shadow: 0.2em 0.2em 0.1em #b34100;
 	width:fill;
+	font-family: 'Exo 2', sans-serif;
 
 
 
@@ -223,7 +225,7 @@ h3{
 	border-style:solid;
 	border-width:0.25em;
 	margin-top:1em;
-	box-shadow: 0.2em 0.2em 0.1em #1e01ad;
+	box-shadow: 0.2em 0.2em 0.1em #b34100;
 	width:fill;
 
 
