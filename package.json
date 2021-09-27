@@ -1,5 +1,5 @@
 {
-  "homepage": "http://BoyanP.github.io/resume",
+  "homepage": "https://boyanp.github.io/resume",
   "name": "resume",
   "version": "0.1.0",
   "private": true,
@@ -41,6 +41,6 @@
     ]
   },
   "devDependencies": {
-    "resume": "0.0.1"
+    "gh-pages": "^3.2.3"
   }
 }
