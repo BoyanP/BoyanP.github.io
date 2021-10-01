@@ -171,7 +171,11 @@ const resumeData = [
         subtitle:"Java, Javascript, and Swift software developer.",
         infoSections:[   {
                 title:  "Who am I?",
-                image:myImage,
+                image:{
+                    image:myImage,
+                    height:'329',
+                    width:'438'
+                },
                 infoText:"I love coding, playing guitar, and basketball! I dabble in chess as well. Big time coffee enthusiast! I decided I wanted to be a software engineer after spending countless hours of my childhood playing video games on the computer. I realized though the game dev industry was not for me and focused my efforts learning about web development and mobile development. Whether it's through podcasts, articles or youtube videos, I'm always learning!!",
 
 
@@ -231,7 +235,12 @@ const resumeData = [
         infoSections:[
             {
                 title:"Alberta Blue Cross Member site",
-                image:abcWebPagePic,
+                image:{
+                    image:abcWebPagePic,
+                    height:'212',
+                    width:'438',
+
+                },
                 subtitle:"Work project",
                 infoText:"I ported components of the Alberta Blue Cross member site from Oracle ADF to Spring. I learned how to use Thymeleaf to template our HTML pages. I have also worked on the REST APIs in this project that are used by our mobile apps.",
                 listInfo:[
@@ -243,7 +252,11 @@ const resumeData = [
             },
             {
                 title:"Alberta Blue Cross Member App (iOS)",
-                image:abcIOSHomeScreenPic,
+                image:{
+                    image:abcIOSHomeScreenPic,
+                    height:'491',
+                    width:'276'
+                },
                 subtitle:"Work project",
                 infoText:"I implemented functionality in the Alberta Blue Cross iOS Member app. Alongside the Spring rewrite of the website, Alberta Blue Cross also re wrote their iOS so that the whole code base would be in Swift. ",
                 listInfo:[{

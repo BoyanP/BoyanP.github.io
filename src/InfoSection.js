@@ -21,10 +21,11 @@ const InfoSection = (props) => {
               
             <div className="row">
                  {   image &&
-                        <img src={image} className="img-fluid rounded col-4"/>   
+                        <img src={image.image} className="img-fluid rounded col-lg-3 col-md-3 col-sm-12 col-xs-12" style={ {
+                            height: image.height + "px", width: image.width + "px"}}/>   
                 }
                
-                <p className="col-6 infoView"> {infoText}
+                <p className="col-lg-6 col-md-6  col-sm-12  col-xs-12 infoView"> {infoText}
                 
                 </p>
                 

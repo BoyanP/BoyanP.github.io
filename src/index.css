@@ -83,14 +83,6 @@ code {
   margin: 1em 0em 1em 0em;
 }
 
-.infoSection img {
-  /* display: block; */
-  max-width: 500px;
-  max-height: 600px;
-  min-width: 300px;
-  min-height: 300px;
-}
-
 .moreInfo {
   margin: 1em;
 }
