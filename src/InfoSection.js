@@ -20,11 +20,14 @@ const InfoSection = (props) => {
                 <h5>{subtitle}</h5>
               
             <div className="row">
-                {   image &&
-                        <img src={image} className="img-fluid rounded col-3"/>
-                    
+                 {   image &&
+                        <img src={image} className="img-fluid rounded col-4"/>   
                 }
-                <p className="infoView col-9"> {infoText}</p>
+               
+                <p className="col-6 infoView"> {infoText}
+                
+                </p>
+                
                   
             </div>
             
@@ -34,7 +37,7 @@ const InfoSection = (props) => {
                     listInfo && 
                     listInfo.map((info,index)=>{
                         console.log(info.items);
-                        return <PrettyList items={info.items} isInline={info.isInline} id={"list"+index}></PrettyList>
+                        return <PrettyList items={info.items} isInline={info.isInline} key={"list"+info+index}></PrettyList>
                     })
                     
                 }

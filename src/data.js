@@ -1,6 +1,6 @@
-import Image from './Image';
 import myImage from './assets/mountainPic.jpg';
-import PrettyList from './PrettyList';
+import abcIOSHomeScreenPic from './assets/abciOSHomeScreen.jpg';
+import abcWebPagePic from './assets/ABCHomePage.png';
 //each object needs
 /*
 {
@@ -36,6 +36,8 @@ import PrettyList from './PrettyList';
     image:""},
     {text:"Spring",
     image:""},
+    {text:"Thymeleaf",
+    image:""},
     {text:"REST",
     image:""},
     {text:"Bash",
@@ -53,11 +55,79 @@ const abcListItems = [
     image:""}
 ];
 
-const websiteItems = [
+const uOfAItems = [
     {
-        text:"I tried to organize the code in such a way that I can move the data to a DB and the retrieval of JSON data would be used with just adding the api call",
+        text:"Teamwork and communication with Dr. Frishkopf and others to create a soundwalk for the new islamic garden in the Devonian Gardens",
+        image:"",
+    },
+    {
+        text:"Used javascript and Web Audio API to create an audio layer on top of the real-world Islamic garden ",
         image:""
     },
+    {
+        text:"Deployed a backend using Flask and MySql to serve pages and create an API for the sounds to be delivered based on GPS coordinates of the user",
+        image:""
+    }
+];
+
+const guitarItems = [
+    {
+        text:"Assessing the skill of the student during the lesson and deciding what is the next step for their progress",
+        image:""
+    },
+    {
+        text:"Handled scheduling and rescheduling of lessons for all my students",
+        image:""
+    },
+    {
+        text:"fufilled the student's request of learning a specific song if I thought their skills level was enough to learn the song. ",
+        image:""
+    }
+];
+
+const websiteItems = [
+    {
+        text:"I created reusable react components and structured it in a way where I can use it for other one page sites in the future.",
+        image:""
+    },
+    {
+        text:"I organized my code in such a way that I can move the data to a DB and the retrieval of JSON data would be used with just adding the api call.",
+        image:""
+    },
+];
+
+const abcWebsiteItems = [
+    {
+        text:"Migrated functionality from the old Oracle ADF based project to a Spring project",
+        image:""
+    },
+    {
+        text:"Delivering large pieces of functionality to the project manager and meeting project deadlines. ",
+        image:""
+    },
+    {
+        text:"Creating reusable Thymeleaf fragments to keep consistency of components across the application",
+        image:""
+    },
+    {
+        text:"Implementing data access objects and data transfer objects to retrieve data from the PL/SQL back end",
+        image:""
+    }
+];
+
+const iOSAppItems = [
+    {
+        text:"Delivered project components to the project manager while meeting deadlines.",
+        image:""
+    },
+    {
+        text:"Completing peer reviews that are assigned to me so that I can approve the changes going into the project",
+        image:""
+    },
+    {
+        text:"Design UI screens  in xcode and swift while collaborating with the DX team to match the mock ups and the business requirements.",
+        image:""
+    }
 ];
 
 const trackerAppItems = [
@@ -75,23 +145,41 @@ const trackerAppItems = [
     }
 ];
 
+const p2pItems = [
+    {
+        text:"Created a P2P blogging service in a group class project. ",
+        image:""
+    },
+    {
+        text:"Responsible for front end which included ajax requests to our REST api and other peers’ api",
+        image:""
+    },
+    {
+        text:"Utilized authorization tokens in the http headers.",
+        image:""
+    },
+    {
+        text:"Technologies used: HTTP, Javascript, JQuery, CSS, HTML , Angular , REST, Django, Git, JSON",
+        image:""
+    }
+];
 
 const resumeData = [
     {
         id:"home",
         title:"Boyan Peychoff",
-        subtitle:"Java, Javascript, and Swift developer with a front end focus.",
+        subtitle:"Java, Javascript, and Swift software developer.",
         infoSections:[   {
                 title:  "Who am I?",
                 image:myImage,
-                infoText:"I love coding, playing guitar, and basketball! I dabble in chess as well. Big time coffee enthusiast! I decided I wanted to be a software engineer after spending countless hours of my childhood playing video games on the computer. I realized though the game dev industry was not for me and focused my efforts learning about web development and mobile development. Trying to stay up to date with everything by listening to podcasts!",
+                infoText:"I love coding, playing guitar, and basketball! I dabble in chess as well. Big time coffee enthusiast! I decided I wanted to be a software engineer after spending countless hours of my childhood playing video games on the computer. I realized though the game dev industry was not for me and focused my efforts learning about web development and mobile development. Whether it's through podcasts, articles or youtube videos, I'm always learning!!",
 
 
             },
             {
                 title:"Skills",
                 image:"",
-                infoText:"my coding skills summarized",
+                infoText:"my coding skills summarized :",
                 listInfo: [{
                     isInline:true,
                     items:skillItems
@@ -118,36 +206,50 @@ const resumeData = [
                 title:"University of Alberta",
                 subtitle:"Web Developer",
                 image:"",
-                infoText:"I worked with a professor for a website",
-                listInfo:[]
+                infoText:"I collaborated with a music curator and professor to create an augmented reality sound walk. ",
+                listInfo:[{
+                    isInline:false,
+                    items:uOfAItems
+                }]
             },
             {
                 title:"Caesar's School of Music",
                 subtitle:"Guitar teacher",
                 image:"",
-                infoText:"I taught guitar lessons to children from ages four to sixteen.",
-                listInfo:[]
+                infoText:"I taught classical, acoustic, and electric guitar lessons to children from ages four to sixteen.",
+                listInfo:[{
+                    isInline:false,
+                    items:guitarItems
+                }]
             }
         ]
     },
     {
         id:"projects",
         title:"Projects",
-        subtitle:"Work projects and projects outside of work",
+        subtitle:"A sample of my previous works",
         infoSections:[
             {
                 title:"Alberta Blue Cross Member site",
-                image:"",
+                image:abcWebPagePic,
                 subtitle:"Work project",
-                infoText:"I worked on moving our member site from Oracle ADF to Spring. I learned how to use Thymeleaf to template our HTML pages. I have also worked on the REST APIs in this project that are used by our mobile apps.",
-                listInfo:[]
+                infoText:"I ported components of the Alberta Blue Cross member site from Oracle ADF to Spring. I learned how to use Thymeleaf to template our HTML pages. I have also worked on the REST APIs in this project that are used by our mobile apps.",
+                listInfo:[
+                    {
+                        isInline:false,
+                        items:abcWebsiteItems
+                    }
+                ]
             },
             {
                 title:"Alberta Blue Cross Member App (iOS)",
-                image:"",
+                image:abcIOSHomeScreenPic,
                 subtitle:"Work project",
-                infoText:"",
-                listInfo:[]
+                infoText:"I implemented functionality in the Alberta Blue Cross iOS Member app. Alongside the Spring rewrite of the website, Alberta Blue Cross also re wrote their iOS so that the whole code base would be in Swift. ",
+                listInfo:[{
+                    isInline:false,
+                    items:iOSAppItems
+                }]
             },
             {
                 title:"This Webpage!",
@@ -164,14 +266,10 @@ const resumeData = [
                 image:"",
                 subtitle:"University project",
                 infoText:"",
-                listInfo:[],
-            },
-            {
-                title:"Five Stages of Keith",
-                image:"",
-                subtitle:"University project",
-                infoText:"",
-                listInfo:[]
+                listInfo:[{
+                    isInline:false,
+                    items:p2pItems
+                }],
             },
             {
                 title:"Expense tracker app (Android)",

@@ -43,6 +43,18 @@ code {
   border-radius: 1px;
 }
 
+@media (max-width: 600px) {
+  .mainSection {
+    scroll-margin-top: 8em;
+  }
+}
+
+@media (min-width: 580px) {
+  .mainSection {
+    scroll-margin-top: 4em;
+  }
+}
+
 .mainSection > h2 {
   font-family: "Josefin Sans", sans-serif;
   color: #041401;
@@ -68,19 +80,25 @@ code {
   font-family: "Dosis", sans-serif;
   font-weight: bold;
   font-style: italic;
+  margin: 1em 0em 1em 0em;
 }
 
 .infoSection img {
   /* display: block; */
-  max-width: 100%;
-  max-height: auto;
-  min-width: 350px;
-  min-height: 350px;
+  max-width: 500px;
+  max-height: 600px;
+  min-width: 300px;
+  min-height: 300px;
+}
+
+.moreInfo {
+  margin: 1em;
 }
 
 .infoView {
   font-size: 1.2em;
   font-family: "Josefin Sans", sans-serif;
+  margin-top: 1em;
 }
 
 .listText {

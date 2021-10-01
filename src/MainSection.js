@@ -5,12 +5,13 @@ const MainSection = (props) => {
     const {title, subtitle, infoSections, id } = {...props}
     return (
         <section className="mainSection shadow " id = {id}>
+            <div></div>
             <h2> {title} </h2>
             <h5>{subtitle}</h5>
 
             {infoSections &&
                 infoSections.map((section,index)=>{
-                    return (<InfoSection key={index} section={section}>
+                    return (<InfoSection key={index+section.title} section={section}>
                     </InfoSection>);
                 })
             }
