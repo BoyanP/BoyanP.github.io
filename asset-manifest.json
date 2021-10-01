@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.e0cb216d.chunk.css",
-    "main.js": "/resume/static/js/main.0250c64e.chunk.js",
-    "main.js.map": "/resume/static/js/main.0250c64e.chunk.js.map",
-    "runtime-main.js": "/resume/static/js/runtime-main.788773e4.js",
-    "runtime-main.js.map": "/resume/static/js/runtime-main.788773e4.js.map",
+    "main.css": "/resume/static/css/main.88612be9.chunk.css",
+    "main.js": "/resume/static/js/main.d4df40ef.chunk.js",
+    "main.js.map": "/resume/static/js/main.d4df40ef.chunk.js.map",
+    "runtime-main.js": "/resume/static/js/runtime-main.b6a3e265.js",
+    "runtime-main.js.map": "/resume/static/js/runtime-main.b6a3e265.js.map",
     "static/css/2.f2512455.chunk.css": "/resume/static/css/2.f2512455.chunk.css",
-    "static/js/2.ad538ffc.chunk.js": "/resume/static/js/2.ad538ffc.chunk.js",
-    "static/js/2.ad538ffc.chunk.js.map": "/resume/static/js/2.ad538ffc.chunk.js.map",
-    "static/js/3.f3303cb9.chunk.js": "/resume/static/js/3.f3303cb9.chunk.js",
-    "static/js/3.f3303cb9.chunk.js.map": "/resume/static/js/3.f3303cb9.chunk.js.map",
+    "static/js/2.8728fe46.chunk.js": "/resume/static/js/2.8728fe46.chunk.js",
+    "static/js/2.8728fe46.chunk.js.map": "/resume/static/js/2.8728fe46.chunk.js.map",
+    "static/js/3.ee03fa4d.chunk.js": "/resume/static/js/3.ee03fa4d.chunk.js",
+    "static/js/3.ee03fa4d.chunk.js.map": "/resume/static/js/3.ee03fa4d.chunk.js.map",
     "index.html": "/resume/index.html",
     "static/css/2.f2512455.chunk.css.map": "/resume/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.e0cb216d.chunk.css.map": "/resume/static/css/main.e0cb216d.chunk.css.map",
-    "static/js/2.ad538ffc.chunk.js.LICENSE.txt": "/resume/static/js/2.ad538ffc.chunk.js.LICENSE.txt",
+    "static/css/main.88612be9.chunk.css.map": "/resume/static/css/main.88612be9.chunk.css.map",
+    "static/js/2.8728fe46.chunk.js.LICENSE.txt": "/resume/static/js/2.8728fe46.chunk.js.LICENSE.txt",
+    "static/media/ABCHomePage.6d5f978d.png": "/resume/static/media/ABCHomePage.6d5f978d.png",
+    "static/media/abciOSHomeScreen.4596e34d.jpg": "/resume/static/media/abciOSHomeScreen.4596e34d.jpg",
     "static/media/mountainPic.89fa75b1.jpg": "/resume/static/media/mountainPic.89fa75b1.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.788773e4.js",
+    "static/js/runtime-main.b6a3e265.js",
     "static/css/2.f2512455.chunk.css",
-    "static/js/2.ad538ffc.chunk.js",
-    "static/css/main.e0cb216d.chunk.css",
-    "static/js/main.0250c64e.chunk.js"
+    "static/js/2.8728fe46.chunk.js",
+    "static/css/main.88612be9.chunk.css",
+    "static/js/main.d4df40ef.chunk.js"
   ]
 }
