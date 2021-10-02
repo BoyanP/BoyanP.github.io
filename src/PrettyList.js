@@ -12,7 +12,7 @@ const PrettyList = ({items, isInline})=>{
     console.log(items);
     return(
         <div>
-        <ul className={ isInline ? "list-inline":""}>
+        <ul className={ (isInline ? "list-inline":"") + " prettyList"}>
             {console.log(items)}
             {
                 items &&

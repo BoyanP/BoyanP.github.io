@@ -46,10 +46,10 @@ import abcWebPagePic from './assets/ABCHomePage.png';
   ];
 
 const abcListItems = [
-    {text:"Implementing features and bigger projects in our Member Services Web Application and iOS App",
+    {text:"Implement features and bigger projects in our Member Services Web Application and iOS App",
         image:"" 
     },
-    {text:"Collaborating with Business Analysts and the Digital Experience team to ensure appropriate solutions are being implemented and meeting the business expectations",
+    {text:"Collaborate with Business Analysts and the Digital Experience team to ensure appropriate solutions are being implemented and meeting the business expectations",
     image:""},
     {text:"Attend daily scrum meetings where each team member discusses their current work and challenges to ensure we deliver for the monthly release",
     image:""}
@@ -57,7 +57,7 @@ const abcListItems = [
 
 const uOfAItems = [
     {
-        text:"Teamwork and communication with Dr. Frishkopf and others to create a soundwalk for the new islamic garden in the Devonian Gardens",
+        text:"Teamwork and communication with professors and others to create a soundwalk for the new islamic garden in the Devonian Gardens",
         image:"",
     },
     {
@@ -200,7 +200,7 @@ const resumeData = [
                 title:"Alberta Blue Cross",
                 subtitle:"Systems Analyst 3",
                 image:"",
-                infoText:"I worked the Blue Cross member facing website and iOS app where members can submit their claims and check their benefits and many other features.",
+                infoText:"I worked on the Blue Cross member facing website and iOS app with my team. Members can submit their claims and check their benefits and many other features are available.",
                 listInfo: [{
                     isInline:false,
                     items:abcListItems
@@ -268,7 +268,7 @@ const resumeData = [
                 title:"This Webpage!",
                 image:"",
                 subtitle:"React learning project",
-                infoText:"I built this webpage using React so I can use what I've learned through React tutorials in a practical way. I wanted to use my understanding of React components and try to use them in an efficient way.",
+                infoText:"I built this webpage using React so I can use what I've learned through React tutorials in a practical way. I wanted to use my understanding of React components and use them in an efficient way.",
                 listInfo:[{
                     isInline:false,
                     items:websiteItems
